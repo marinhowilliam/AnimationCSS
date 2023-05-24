@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.c1{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    animation: why 2s infinite;
+}
+
+@keyframes why{
+    0%{
+        background-color: yellow;
+    }
+
+    50%{
+        background: green;
+    }
+
+    100%{
+        background: black;
+    }
+}

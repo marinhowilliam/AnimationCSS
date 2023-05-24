@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.q1{
+    height: 200px;
+    width: 200px;
+    background: #000;
+    animation: why 4s linear;
+}
+
+@keyframes why{
+    0%{
+        transform: rotate(45deg);
+        background: red;
+    }
+    
+    12%{
+        transform: rotate(90deg);
+        background: orange;
+    }
+
+    24%{
+        transform: rotate(135deg);
+        background: orangered;
+    }
+
+    48%{
+        transform: rotate(180deg);
+        background: yellow;
+    }
+
+    60%{
+        transform: rotate(225deg);
+        background: blue;
+    }
+
+    82%{
+        transform: rotate(275deg);
+        background: darkcyan;
+    }
+
+    100%{
+        transform: rotate(360deg);
+        background: darkgray;
+    }
+}

@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.c1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #000;
+    animation: why 4s linear;
+}
+
+@keyframes why{
+    to{
+        transform: translateX(600px);
+    }
+    from{
+        transform: translateX(0);
+    }
+}

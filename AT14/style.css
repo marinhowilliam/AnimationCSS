@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.c1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.c1:hover{
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+}

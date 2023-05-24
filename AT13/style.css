@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.q1{
+    height: 200px;
+    width: 200px;
+    background: #000;
+    animation: why 3s linear infinite ;
+}
+
+.q2{
+    height: 200px;
+    width: 200px;
+    background: darkblue;
+    animation: why2 3s linear infinite;
+    animation-delay: 2s;
+}
+
+.q3{
+    height: 200px;
+    width: 200px;
+    background: #450303;
+    animation: why3 3s linear infinite ;
+    animation-delay: 4s;
+}
+
+@keyframes why{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes why2{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes why3{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}

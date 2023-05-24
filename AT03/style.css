@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #000;
+    transition: 6s;
+}
+
+.c1:hover{
+    height: 400px;
+    width: 400px;
+    background: darkcyan;
+}
+
